@@ -1,0 +1,120 @@
+
+
+/* for bg image */
+html {
+  background: url(../images/bw-vr-dark.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  background-color:transparent;
+  color:white;
+}
+
+h1{
+  color:#4B9CD3;
+  text-align: center;
+  margin-top:50px;
+}
+
+h3 {
+  color: #4B9CD3;
+  text-align: center;
+}
+
+h5{
+  color:#4B9CD3;
+}
+p{
+  color:black;
+}
+
+.center-it{
+  margin:auto;
+}
+
+.center-media{
+  display: block;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:100px;
+
+}
+.lead{
+  text-align: center;
+  font-size:2.5em;
+  color:#4B9CD3;
+}
+.navbar-brand{
+
+  max-width: 310px;
+  height:100px;
+}
+
+.page-header{
+  border:none;
+}
+
+.footer{
+  background-color: white;
+}
+
+.main-spacer{
+  height:320px;
+}
+
+.promo-image{
+  border:1px solid black;
+}
+
+.space-50{
+  height:50px;
+}
+
+.space-20{
+  height:20px;
+}
+
+.brand-tag{
+  font-size:11pt;
+  padding-left:10px;
+}
+
+
+/*--FOOTER IMGS--*/
+.footer {
+  padding: 0 15px 15px 15px;
+}
+
+.footer-logos {
+  float: right;
+}
+
+
+.kf-logo {
+  width: auto;
+  height: 45px;
+}
+
+
+/*--MEDIA QUERIES--*/
+@media only screen and (max-width: 767px) {
+  .footer-logos {
+    float: none;
+    text-align: center;
+  }
+
+  .buttons {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .nav-imgs {
+    margin: 25px 58px;
+  }
+}
